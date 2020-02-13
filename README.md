@@ -27,5 +27,4 @@ The `toggl` script is a Linux shell script so it's not gonna run in Windows envi
 - Switch to https://github.com/DataMincer/task-runner to get decent options parsing.
 - Add JSON and CSV output format
 - Add support for multiple projects and accounts (tokens) (for teams maybe)
-- 
 - You suggestions? Welcome to **Issues**
