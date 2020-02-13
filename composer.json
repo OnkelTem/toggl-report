@@ -1,0 +1,23 @@
+{
+    "name": "onkeltem/toggl",
+    "type": "project",
+    "description": "Toggl.com CLI reporting tool.",
+    "keywords": ["toggl", "api", "guzzle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artiom Neganov",
+            "email": "aneganov@gmail.com"
+        }
+    ],
+    "require": {
+        "ajt/guzzle-toggl": "^0.12.0"
+    },
+    "bin": ["bin/toggl"],
+    "autoload": {
+        "psr-4": {
+            "Toggl\\": "src/",
+            "Color\\": ""
+        }
+    }
+}
