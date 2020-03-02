@@ -7,6 +7,10 @@ Example invocation:
 ```
 $ vendor/toggl -te7581a1373e5f723e205679f0a075aa7 -p12693340 -n30 -T
 ```
+OR
+```
+$ composer toggl -te7581a1373e5f723e205679f0a075aa7 -p12693340 -n30 -T
+```
 
 This would print report grouped by task for the last 30 days for a project 
 with ID `12693340`. The auth token is passed via `-t` option.
@@ -27,4 +31,4 @@ The `toggl` script is a Linux shell script so it's not gonna run in Windows envi
 - Switch to https://github.com/DataMincer/task-runner to get decent options parsing.
 - Add JSON and CSV output format
 - Add support for multiple projects and accounts (tokens) (for teams maybe)
-- You suggestions? Welcome to **Issues**
+- You suggestions? Welcome to the **Issues**

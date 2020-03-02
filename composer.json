@@ -14,6 +14,9 @@
         "ajt/guzzle-toggl": "^0.12.0"
     },
     "bin": ["bin/toggl"],
+    "scripts": {
+        "toggl": "vendor/bin/toggle"
+    },
     "autoload": {
         "psr-4": {
             "Toggl\\": "src/",
