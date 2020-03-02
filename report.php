@@ -1,6 +1,6 @@
 <?php
 
-use Toggl\Toggl;
+use TogglReport\TogglReport;
 
 $toggl_token = '';
 $project_id = '';
@@ -23,7 +23,7 @@ if (isset($options['t'])) {
 }
 (bool) $toggl_token || fwrite(STDERR, 'Token not configured') && die();
 
-$toggl = new Toggl($toggl_token, $debug);
+$toggl = new TogglReport($toggl_token, $debug);
 
 // Get the project
 if (isset($options['p'])) {

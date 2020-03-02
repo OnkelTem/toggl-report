@@ -1,6 +1,6 @@
 <?php
 
-namespace Toggl;
+namespace TogglReport;
 
 use AJT\Toggl\ReportsClient;
 use AJT\Toggl\TogglClient;
@@ -9,7 +9,7 @@ use DatePeriod;
 use DateTime;
 use Exception;
 
-class Toggl {
+class TogglReport {
 
   /** @var TogglClient */
   protected $togglClient;

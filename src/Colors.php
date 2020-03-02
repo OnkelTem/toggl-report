@@ -1,6 +1,6 @@
 <?php
 
-namespace Toggl;
+namespace TogglReport;
 
 class Colors {
   private $foreground_colors = [];
