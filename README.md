@@ -1,13 +1,29 @@
 # Toggl.com CLI reporting tool
 
 `toggl-report` is a command-line tool for connecting to your Toggl account and creating
-a nice looking report of your "time expenses" grouped by date or task. 
+a nice looking report of your "time expenses" grouped by date or task.
 
-It was created to transfer time spent data into RedMine, Jira - easily yet manually.
+It was created to get the clean picture of time spent and use it then to transfer log data into RedMine, Jira - easily yet manually.
+
+## Demo
+
+Grouping by date:
+
+![Report for the last 10 days grouped by date](https://user-images.githubusercontent.com/114060/75770790-b5b17580-5d59-11ea-8072-b6c83a73d1d7.png)
+
+Grouping by task:
+
+![Report for the last 10 days grouped by task](https://user-images.githubusercontent.com/114060/75771205-8d764680-5d5a-11ea-8b66-1193267b5179.png)
+
+## Prerequisites
+
+In order to use this package you need to install [Composer](https://getcomposer.org/).
 
 ## Installation
 
-
+```
+$ composer require onkeltem/toggl-report
+```
 
 ## Usage
 
