@@ -1,5 +1,14 @@
 # Toggl.com CLI reporting tool
 
+`toggl-report` is a command-line tool for connecting to your Toggl account and creating
+a nice looking report of your "time expenses" grouped by date or task. 
+
+It was created to transfer time spent data into RedMine, Jira - easily yet manually.
+
+## Installation
+
+
+
 ## Usage
 
 Example invocation:
