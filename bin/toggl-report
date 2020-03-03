@@ -22,7 +22,7 @@ $debug = FALSE;
  *  -t  token
  *  -p  project_id
  *  -n  number of days to report (default: 1)
- *  -T  group report by tasks, otherwise groups by date
+ *  -T  group report by tasks, otherwise group by date
  */
 $options = getopt('t::p::n::T');
 
