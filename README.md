@@ -9,7 +9,7 @@ It was created to get the clean picture of time spent and use it then to transfe
 
 Grouping by date:
 
-![Report for the last 10 days grouped by date](https://user-images.githubusercontent.com/114060/75770790-b5b17580-5d59-11ea-8072-b6c83a73d1d7.png)
+![Report for the last 10 days grouped by date](https://user-images.githubusercontent.com/114060/75772485-1aba9a80-5d5d-11ea-9bf2-3d307316be25.png)
 
 Grouping by task:
 
